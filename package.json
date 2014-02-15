@@ -1,0 +1,31 @@
+{
+  "name": "base64-xor",
+  "version": "0.10.0",
+  "description": "Creates a base64 encoded xor cipher from a pair of strings. Includes 2 methods encode / decode. For use when speed is important and security is not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itslenny/base64-xor.git"
+  },
+  "keywords": [
+    "base64",
+    "xor",
+    "cipher",
+    "crypto",
+    "encryption",
+    "fast"
+  ],
+  "author": "Lenny Urbanowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itslenny/base64-xor/issues"
+  },
+  "homepage": "https://github.com/itslenny/base64-xor",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "readmeFilename": "README.md"
+}
