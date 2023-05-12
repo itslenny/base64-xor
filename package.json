@@ -7,7 +7,7 @@
     "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; exit 0"
   },
    "dependencies": {
-    "buffer": "^6.0.3",
+    "buffer": "^6.0.3"
    },
   "repository": {
     "type": "git",
