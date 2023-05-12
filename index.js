@@ -1,9 +1,9 @@
 var B64XorCipher = {
   encode: function(key, data) {
-    return new Buffer(xorStrings(key, data),'utf8').toString('base64');
+    return Buffer.from(xorStrings(key, data),'utf8').toString('base64');
   },
   decode: function(key, data) {
-    data = new Buffer(data,'base64').toString('utf8');
+    data = Buffer(data,'base64').toString('utf8');
     return xorStrings(key, data);
   }
 };
