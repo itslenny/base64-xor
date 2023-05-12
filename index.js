@@ -1,3 +1,5 @@
+const {Buffer} = require('buffer');
+
 var B64XorCipher = {
   encode: function(key, data) {
     return Buffer.from(xorStrings(key, data),'utf8').toString('base64');
